@@ -1,0 +1,23 @@
+{
+  "name": "jsonassignment",
+  "version": "1.0.0",
+  "description": "### Challenge #1: Write a route for \"/verify\" that takes json data  like the following: {   \"name\": \"Troy\",   \"state\": \"AZ\" } If the state is not AZ send a 400 status. If it is AZ send a 200 status.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dRaGoN-LMW/jsonassignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dRaGoN-LMW/jsonassignment/issues"
+  },
+  "homepage": "https://github.com/dRaGoN-LMW/jsonassignment#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
